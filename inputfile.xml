@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<db name="sqlserver" createSyntax="create table">
+		<tablecount>2</tablecount>
+		<datatype name="char">
+			<min>0</min>
+			<max>8000</max>
+		</datatype>
+		<datatype name="varchar">
+			<min>0</min>
+			<max>8000</max>
+		</datatype>
+		<datatype name="text">
+			<min>0</min>
+			<max>2048</max>
+		</datatype>
+		<datatype name="nchar">
+			<min>0</min>
+			<max>4000</max>
+		</datatype>
+		<datatype name="nvarchar">
+			<min>0</min>
+			<max>536870912</max>
+		</datatype>
+		<datatype name="ntext">
+			<min>0</min>                   
+			<max>2048</max>
+		</datatype>
+		<datatype name="bit">
+			<min>0</min>
+			<max>1</max>
+		</datatype>
+		<datatype name="binary">
+			<min>0</min>
+			<max>8000</max>
+		</datatype>
+		<datatype name="varbinary">
+			<min>0</min>
+			<max>8000</max>
+		</datatype>
+		<datatype name="image">
+			<min>0</min>
+			<max>2048</max>
+		</datatype>
+		<datatype name="tinyint">
+			<min>0</min>
+			<max>255</max>
+		</datatype>
+		<datatype name="smallint">
+			<min>-32768</min>
+			<max>+32767</max>
+		</datatype>
+		<datatype name="int">
+			<min>-2147483648</min>
+			<max>+2147483647</max>
+		</datatype>
+		<datatype name="bigint">
+			<min>-9223372036854775808</min>
+			<max>+9223372036854775807</max>
+		</datatype>
+		<datatype name="decimal">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="numeric">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="smallmoney">
+			<min>-214748.3648</min>
+			<max>+214748.3647</max>
+		</datatype>
+		<datatype name="float">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="real">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="datetime">
+			<min>1753-01-01</min>
+			<max>9999-12-31</max>
+		</datatype>
+		<datatype name="datetime2">
+			<min>1900-01-01</min>
+			<max>9999-06-06</max>
+		</datatype>
+		<datatype name="smalldatetime">
+			<min>1900-01-01</min>
+			<max>2079-06-06</max>
+		</datatype>
+		<datatype name="date">
+			<min>0001-01-01</min>
+			<max>9999-12-31</max>
+		</datatype>
+	</db>
+	
+	
+	
+	
+	<db name="oracle" createSyntax="create table">
+		<tablecount>2</tablecount>
+		<datatype name="char">
+			<min>0</min>
+			<max>2000</max>
+		</datatype>
+		<datatype name="varchar">
+			<min>0</min>
+			<max>4000</max>
+		</datatype>
+		<datatype name="nchar">
+			<min>0</min>
+			<max>2000</max>
+		</datatype>
+		<datatype name="nvarchar">
+			<min>0</min>
+			<max>4000</max>
+		</datatype>
+		<datatype name="varchar2">
+			<min>0</min>                   
+			<max>4000</max>
+		</datatype>
+		<datatype name="binary_float">
+			<min>0</min>
+			<max>5</max>
+		</datatype>
+		<datatype name="binary_double">
+			<min>0</min>
+			<max>9</max>
+		</datatype>
+		<datatype name="clob">
+			<min>0</min>
+			<max>4096</max>
+		</datatype>
+		<datatype name="blob">
+			<min>0</min>
+			<max>4096</max>
+		</datatype>
+		<datatype name="nclob">
+			<min>0</min>
+			<max>4096</max>
+		</datatype>
+		
+		<datatype name="bfile">
+			<min>0</min>
+			<max>4096</max>
+		</datatype>
+		<datatype name="tinyint">
+			<min>-128</min>
+			<max>127</max>
+		</datatype>
+		<datatype name="smallint">
+			<min>-32768</min>
+			<max>+32767</max>
+		</datatype>
+		<datatype name="mediumint">
+			<min>-32768</min>
+			<max>+32767</max>
+		</datatype>
+		<datatype name="int">
+			<min>-2147483648</min>
+			<max>+2147483647</max>
+		</datatype>
+		<datatype name="bigint">
+			<min>-9223372036854775808</min>
+			<max>+9223372036854775807</max>
+		</datatype>
+		<datatype name="decimal">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="number">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="real">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="double">
+			<min>0</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="date">
+			<min>4712-01-01</min>
+			<max>9999-12-31</max>
+		</datatype>
+		<datatype name="raw">
+			<min>1</min>
+			<max>2000</max>
+		</datatype>
+		<datatype name="long raw">
+			<min>1</min>
+			<max>2048</max>
+		</datatype>
+		<datatype name="rowid">
+			<min>1</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="urowid">
+			<min>1</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="xmltype">
+			<min>1</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="uri">
+			<min>1</min>
+			<max>1000</max>
+		</datatype>
+		<datatype name="long">
+			<min>1</min>
+			<max>2048</max>
+		</datatype>
+	</db>
+	
+	
+	
+	
+	
+	
+	<db name="mysql" createSyntax="create table">
+		<tablecount>2</tablecount>
+
+		<datatype name="char">
+			<min>0</min>
+			<max>255</max>
+		</datatype>
+		<datatype name="varchar">
+			<min>0</min>
+			<max>255</max>
+		</datatype>
+			
+		<datatype name="TINYTEXT">
+			<min>0</min>
+			<max>65535</max>
+		</datatype>
+		<datatype name="text">
+			<min>0</min>
+			<max>65535</max>
+		</datatype>
+		<datatype name="BLOB">
+			<min>0</min>
+			<max>65535</max>
+		</datatype>
+		<datatype name="MEDIUMTEXT">
+			<min>0</min>
+			<max>16777215</max>
+		</datatype>
+		<datatype name="MEDIUMBLOB">
+			<min>0</min>
+			<max>16777215</max>
+		</datatype>
+		<datatype name="LONGTEXT">
+			<min>0</min>
+			<max>4294967295</max>
+		</datatype>
+		<datatype name="LONGBLOB">
+			<min>0</min>
+			<max>4294967295</max>
+		</datatype>
+		<datatype name="ENUM">
+			<min>0</min>
+			<max>65535</max>
+		</datatype>
+		<datatype name="ENUM">
+			<min>0</min>
+			<max>64</max>
+		</datatype>
+		
+		
+
+		
+		<datatype name="tinyint">
+			<min>-128</min>
+			<max>127</max>
+		</datatype>
+		<datatype name="smallint">
+			<min>-32768</min>
+			<max>32767</max>
+		</datatype>
+		<datatype name="mediumint">
+			<min>-8388608</min>
+			<max>8388607</max>
+		</datatype>
+		<datatype name="int">
+			<min>-2147483648</min>
+			<max>2147483647</max>
+		</datatype>
+		<datatype name="bigint">
+			<min>-9223372036854775808</min>
+			<max>9223372036854775807</max>
+		</datatype>
+		<datatype name="float">
+			<min>0</min>
+			<max>4000</max>
+		</datatype>
+		<datatype name="double">
+			<min>0</min>
+			<max>4000</max>
+		</datatype>
+		
+	
+		<datatype name="date">
+			<min>1000-01-01</min>
+			<max>9999-12-31</max>
+		</datatype>
+		<datatype name="datetime">
+			<min>1000-01-01</min>
+			<max>9999-12-31</max>
+		</datatype>
+		<datatype name="timestamp">
+			<min>1970-01-01</min>
+			<max>2038-01-09</max>
+		</datatype>
+		<datatype name="year">
+			<min>1901</min>
+			<max>2155</max>
+		</datatype>
+
+	</db>
+	
+	
+	
+	
+	
+	<tablereq>
+	
+		
+
+	</tablereq>
+	
+	
+	
+	
+	
+	
+	
+	
+</database>
